@@ -2,13 +2,13 @@
 
 <?php
   include 'db.php';
-  
 ?>
 
 <html>
 <head>
   <title>chatApp</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
@@ -27,12 +27,12 @@
             
           <?php else: ?>
             Username:
-            <input type="text" name="userName" class="form-control">
+            <input type="text" name="userName" class="form-control" >
           <?php endif; ?>
           
           Message:
           <textarea class="form-control" name="message"></textarea><br>
-          <input type="submit" value="Send" name="send" class="btn btn-success">
+          <input style="color: white; border: none; outline: none;" type="submit" value="Send" name="send" class="btn">
         </form>
       </div>
       

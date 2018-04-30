@@ -1,13 +1,38 @@
 body {
-  background: #ccc;
+  font-family: 'Lato', sans-serif;
+  color: white;
 }
 .display {
-  background: white;
   padding: 15px;
-  margin-top: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  font-size: 115%;
+  background: #3e68e0; /*#3e68e0  #b6ffcd  */
 }
 .message {
-  height: 200px;
+  height: 250px;
   overflow: auto;
   box-shadow: 1px 2px 1px #ccc;
+  background: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  color: #414a41;
 }
+h1 {
+  margin-bottom: 35px;
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+}
+.btn {
+  font-size: 105%;
+  background: #00e676;
+  color: white;
+  transition: background .3s;
+}
+.btn:hover {
+  color: white;
+  background: #08d672;
+}
+
