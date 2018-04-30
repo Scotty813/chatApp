@@ -27,7 +27,7 @@
             
           <?php else: ?>
             Username:
-            <input type="text" name="userName" class="form-control" >
+            <input type="text" name="userName" class="form-control">
           <?php endif; ?>
           
           Message:
